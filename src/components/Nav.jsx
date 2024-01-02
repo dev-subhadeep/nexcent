@@ -6,7 +6,7 @@ import Link from "next/link"
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex flex-row">
+      <ul className="flex flex-row gap-8">
         {menuList.map((menu) => (
           <li key={menu.path}>
             <Link href={menu.path}>{menu.label}</Link>

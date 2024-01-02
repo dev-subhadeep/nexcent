@@ -6,7 +6,7 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between py-4 px-10">
+    <header className="flex flex-row justify-between py-4 px-10 items-center">
       <div id="logo">
         <Image src={logo} height={24} />
       </div>

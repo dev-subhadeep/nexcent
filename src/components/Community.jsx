@@ -12,9 +12,9 @@ const Community = () => {
         Manage your entire community <br /> in a single system
       </h2>
       <p>Who is Nextcent suitable for?</p>
-      <div className="flex flex-row justify-around my-5">
+      <div className="flex flex-col justify-between items-center gap-4 mx-auto my-5 md:flex-row">
         <Card>
-          <Image src={clubsAndGroups} width={65} height={56} />
+          <Image src={membershipOrg} width={65} height={56} />
           <h3 className="text-3xl font-bold">Membership Organizations</h3>
           <p>
             Our membership management software provides full automation of
@@ -22,7 +22,7 @@ const Community = () => {
           </p>
         </Card>
         <Card>
-          <Image src={membershipOrg} width={65} height={56} />
+          <Image src={natAssociations} width={65} height={56} />
           <h3 className="text-3xl font-bold">National Associations</h3>
           <p>
             Our membership management software provides full automation of
@@ -30,7 +30,7 @@ const Community = () => {
           </p>
         </Card>
         <Card>
-          <Image src={natAssociations} width={65} height={56} />
+          <Image src={clubsAndGroups} width={65} height={56} />
           <h3 className="text-3xl font-bold">
             Clubs And <br /> Groups
           </h3>

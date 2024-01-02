@@ -3,9 +3,9 @@ import Button from "./Button"
 
 const NavButtons = () => {
   return (
-    <div className="flex flex-row gap-2">
+    <div className="flex flex-row gap-4">
       <Button>Login</Button>
-      <Button>Sign up</Button>
+      <Button type="primary">Sign up</Button>
     </div>
   )
 }
