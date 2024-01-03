@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="flex flex-row justify-between py-4 px-10 items-center">
       <div id="logo">
-        <Image src={logo} height={24} />
+        <Image src={logo} height={24} width={155} />
       </div>
       <Nav />
       <NavButtons />
